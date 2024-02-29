@@ -25,7 +25,7 @@ sources:
             tests:
               - not_null
           - name: EXCHANGE
-            description: The short name or code of the exchange where the security is traded.
+            description:   The short name or code of the exchange where the security is traded.
             tests:
               - not_null
           - name: REPORT_DATE
