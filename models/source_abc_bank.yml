@@ -1,7 +1,6 @@
 version: 2
 
 sources:
-
   - name: abc_bank
 
     database: PORTFOLIO_TRACKING
@@ -9,7 +8,7 @@ sources:
 
     tables:
       - name: ABC_BANK_POSITION
-      description: The landing table holding the data imported from the CSV extracted by ABC Bank.
+        description: The landing table holding the data imported from the CSV extracted by ABC Bank.
         columns:
           - name: ACCOUNTID
             description: The code for the account at the ABC Bank.
@@ -25,7 +24,7 @@ sources:
             tests:
               - not_null
           - name: EXCHANGE
-            description:   The short name or code of the exchange where the security is traded.
+            description: The short name or code of the exchange where the security is traded.
             tests:
               - not_null
           - name: REPORT_DATE
